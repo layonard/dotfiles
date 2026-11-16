@@ -1,0 +1,47 @@
+{
+  "skill_name": "leo-writing-style",
+  "evals": [
+    {
+      "id": 1,
+      "name": "english-chat-polishing",
+      "prompt": "Polish this chat to my dev pair coworker in my voice. Return just the message: Hey Alex, Yes, I was testing the permissions in both databases and their working now. At least!!! I still haven't checked the scheduled job, so I don't know if that part works yet.",
+      "expected_output": "A brief friendly English chat that fixes they're and the mistaken relief expression, retains enthusiasm and the uncertainty about the unchecked scheduled job, and does not invent success.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "spanish-chat-polishing",
+      "prompt": "Ayudame a pulir este mensaje para un compañero de desarrollo. Solo quiero el mensaje listo para enviar: Hola Alex, ya probe los permisos en las dos bases de datos y ahora si funcionan. Por fin! Todavia no he revisado la tarea programada, asi que no se si esa parte funciona. Tu crees que deberiamos revisarla juntos antes de cambiar algo?",
+      "expected_output": "A natural Spanish coworker chat with corrected accents and punctuation, preserving the untested status and collaborative question, without forcing English expressions or claiming a learned Spanish dialect.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "english-email-planning",
+      "prompt": "Turn these notes into a short, friendly email to my manager Maya in my voice. No subject line needed. Notes: I was thinking of taking the lead on the service upgrade. I have done initial analysis, but I have not changed code yet. Before upgrading I want to get the projects building and tested locally and understand the data flows. The existing ticket is broad. Ask whether I should use that ticket or create an epic with separate stories for building, testing, and upgrading. Ask if she wants us to coordinate with the dev pair first. Don't add a deadline.",
+      "expected_output": "A friendly, readable English email that preserves the tentative proposal, initial-analysis status, build/test prerequisites, and both coordination questions, without inventing completed tests, an agreed plan, or a deadline. Email style is provisional.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "name": "preserve-casual-gonna",
+      "prompt": "Polish this casual chat to my dev pair coworker in my voice. Return just the message: I agree. I'm gonna tell my manager about it. And if it is ok to keep it as story or make it an epic. I want to be aligned to the way of work.",
+      "expected_output": "Retain I'm gonna as deliberate casual English while fixing the fragment, articles, and awkward wording. Preserve the intention to consult the manager about story versus epic; do not invent approval.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "name": "correct-goona-without-formalizing",
+      "prompt": "Polish this casual English coworker chat in my voice. Return just the message: I'm goona check the build first. I haven't run the tests yet, so I don't know if their passing.",
+      "expected_output": "Correct I'm goona to I'm gonna and their to they're (or equivalent grammatical wording), while preserving that the tests have not been run and their outcome is unknown. Do not automatically replace the informal future phrase with I'll or I'm going to.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "name": "formal-register-overrides-casual-default",
+      "prompt": "Make this suitable for a formal English email to an external client. Return just the message; no subject line needed: I'm gonna review the logs before proposing a fix. I haven't identified the cause yet.",
+      "expected_output": "Use professional future wording rather than gonna because formality was explicitly requested. Preserve the intent to review logs first and the fact that the cause has not yet been identified; do not add findings, guarantees, or deadlines.",
+      "files": []
+    }
+  ]
+}
